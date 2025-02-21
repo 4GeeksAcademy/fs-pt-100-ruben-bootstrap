@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Instagrm Feed</title>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="fa-brands fa-instagram"></span> Instagram</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button type="button" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a new post
+                </button>
+                <div class="m-3 dropdown-center me-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class="fa-solid fa-gear"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-lg-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><button class="dropdown-item text-danger" type="button">Log out</button></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+      <ul class=" m-3 nav nav-tabs justify-content-center border-0" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active border-0" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><span class="fa-solid fa-table-cells"></span></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link border-0" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><span class="fa-solid fa-square"></span></button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                    <div class=" p-2 col-sm-6 col-md-4 col-lg-3">
+                        <img class="img-fluid" src="https://picsum.photos/500" alt="random img"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div class="container d-flex flex-column align-items-center">
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My first Post! <span class="fa-solid fa-champagne-glasses"></span></h4>
+                    <span>21/02</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 100,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My Second Post! <span class="fa-solid fa-gift"></span></h4>
+                    <span>22/02</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title">100,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My third Post! <span class="fa-solid fa-ribbon"></span></h4>
+                    <span>23/02</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title">1,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My fourth Post! <span class="fa-solid fa-graduation-cap"></span></h4>
+                    <span>24/02</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title">10,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My fifth Post! <span class="fa-solid fa-champagne-glasses"></span></h4>
+                    <span>25/02</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 100,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My sixth Post! <span class="fa-solid fa-gift"></span></h4>
+                    <span>26/02</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 15,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My seventh Post! <span class="fa-solid fa-ribbon"></span></h4>
+                    <span>27/02</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 9,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My eighth Post! <span class="fa-solid fa-graduation-cap"></span></h4>
+                    <span>28/02</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 19,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My ninth Post! <span class="fa-solid fa-champagne-glasses"></span></h4>
+                    <span>01/03</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 43,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My tenth Post! <span class="fa-solid fa-gift"></h4>
+                    <span>02/03</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 10,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My eleventh Post! <span class="fa-solid fa-ribbon"></span></h4>
+                    <span>03/03</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 140,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 40rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>My twelfth Post! <span class="fa-solid fa-graduation-cap"></span></h4>
+                    <span>04/03</span>
+                </div>
+                <div class=" p-0 card-body">
+                  <img class="img-fluid w-100" src="https://picsum.photos/500" alt="random img"/>
+                  <div class=" p-2 card-body-description">
+                    <h5 class=" card-title"> 400,000,000 likes</h5>
+                    <p class=" card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque consequatur obcaecati natus ratione a similique amet? Assumenda culpa consectetur numquam voluptatibus exercitationem dolores, perspiciatis recusandae illum voluptates, maxime aperiam.</p>
+                  </div>
+                </div>
+            </div>
+            
+           
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+  
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <label for="message-text" class="col-form-label">Caption:</label>
+                <textarea class="form-control text-body-tertiary" id="message-text">Add the caption of your post here</textarea>
+              </div>
+              <button class="border border-2 rounded"><span class="fa-solid fa-camera"></span></button>
+              <button class="border border-2 rounded"><span class="fa-solid fa-location-dot"></span></button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
